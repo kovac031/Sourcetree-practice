@@ -1,0 +1,4 @@
+- lokalno napravio branch_one sa develope
+- remote, na GH, napravio branch_TWO sa developa
+
+- napravio izmjene na branch_one, a onda remote napravio izmjene na branch_two na istom PROJECT.txt
