@@ -2,3 +2,29 @@
 - remote, na GH, napravio branch_TWO sa developa
 
 - napravio izmjene na branch_one, a onda remote napravio izmjene na branch_two na istom PROJECT.txt
+
+1) stage i commit lokalno sve što ima
+
+2) sa branch_one > finish feature > uncheck rebase, samo merge onto develop
+
+- develop dobio push sve sto mu je novo
+
+3) na GH, radim pull request da mergeam branch_two onto develop (simuliram da je netko drugi nesto pusho)
+
+- tako cu onda imati jedan develop remote i jedan lokalno, koji ce bit u konfliktu
+- nakon merge pull request mogu delete branch_two
+
+4) fetch i pull develop
+
+5) check rebase
+
+6) merge conflicts
+	> File Status
+		> open in VS Code > resolve & save
+		> desni klik > mark as resolved
+		> commit
+		> Actions tab > continue rebase
+
+7) rebasano, lokalno je sve najnovije i samo na developu, dalje normalno
+			
+
