@@ -26,5 +26,11 @@
 		> Actions tab > continue rebase
 
 7) rebasano, lokalno je sve najnovije i samo na developu, dalje normalno
+
+- za staviti promjene sa developa na main
+	- prebacim se na main
+		- rebase changes onto develop
+			- main ce biti isti kao develop, i dobiti sve novo za push
+			- develop se moze obrisati
 			
 
